@@ -1,0 +1,307 @@
+<html xmlns="http://www.w3.org/1999/html" style="display: unset ! important;">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How to mine Monero on Windows or Linux (Fedora or Ubuntu)</title>
+
+    
+
+    
+    
+
+    
+
+    
+
+     
+
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.monero.how/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.monero.how/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.monero.how/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.monero.how/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.monero.how/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.monero.how/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.monero.how/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.monero.how/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128">
+    <meta name="application-name" content="Monero.how">
+    <meta name="msapplication-TileColor" content="#2E2E2E">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="images/favicon/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="images/favicon/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="images/favicon/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="images/favicon/mstile-310x310.png">
+
+
+  
+<link media="all" href="tutorial-how-to-mine-monero.css" type="text/css" rel="stylesheet">
+</head>
+<body style="padding: 0px; margin: 0px; color: rgb(255, 255, 255); display: unset ! important;">
+    <div style="overflow: hidden; width: 100%; height: 65px; position: relative;">
+      <img src="header-chalkboard.jpg" style="width: 2800px; height: 65px; padding: 0px; position: absolute; left: -9999px; right: -9999px; margin: 0px auto; background-color: rgb(0, 0, 0);">
+      <a href="index.html" indepth="true"><img src="logo2b.png" style="width: 300px; padding-top: 8px; position: absolute; left: -9999px; right: -9999px; margin: 0px auto;"></a>
+    </div>
+
+    <div style="text-align: center; font-size: 15px; padding: 6px; margin-bottom: 4px; background-color: rgb(34, 34, 34);">Monero is a secure, untraceable and resilient digital currency. We believe it is the successor to Bitcoin. <a href="why-monero-vs-bitcoin.html" indepth="true">Read why</a>.</div>
+    <div style="text-align: center; font-size: 15px; padding: 6px; margin-bottom: 4px; background-color: rgb(255, 255, 0); color: rgb(0, 0, 0);">MONERO.HOW is for sale! <a style="color: rgb(0, 0, 0); text-decoration: underline;" href="auction.html" indepth="true">See the 14 day auction</a>.</div>
+
+    <div class="pageContainer" style="margin: 0px auto; padding-left: 0px; padding-right: 0px; padding-top: 7px; left: -9999px; right: -9999px;">
+
+    <ul class="nav" style="border-bottom: 1px solid rgb(88, 87, 78);">
+      <li class="nav"><a href="index.html" style="color: rgb(255, 255, 255);" indepth="true">Home</a></li>
+      <li class="nav"><a href="monero-news.html" style="color: rgb(255, 255, 255);" indepth="true">News</a></li>
+      <li class="nav"><a href="monero-chart.html" style="color: rgb(255, 255, 255);" indepth="true">Chart</a></li>
+      <li class="nav"><a href="monero-stock-images.html" style="color: rgb(255, 255, 255);" indepth="true">Stock Images</a></li>
+      <li class="nav"><a href="monero-infographic.html" style="color: rgb(255, 255, 255);" indepth="true">Infographic</a></li>
+      <li class="nav"><a href="why-monero-vs-bitcoin.html" style="color: rgb(255, 255, 255);" indepth="true">Why Monero</a></li>
+    </ul>
+
+
+<div classname="tutorial" style="padding: 10px; margin: 20px auto; max-width: 750px;">
+  <h1>How to mine Monero on Windows or Linux (Fedora or Ubuntu)</h1>
+  <div style="line-height: 1.6em; padding-bottom: 40px;">
+<div style="display: inline-block; width: 350px;">
+
+  <div class="grid-item" style="line-height: 1.4em; font-size: 13px; color: rgb(255, 255, 255);">
+          <div class="sectionHeading">Mining Pools</div>
+    
+    <div>  <div id="miningPools"></div>
+</div>
+  </div>
+
+  
+  <div class="grid-item" style="line-height: 1.4em; font-size: 13px; color: rgb(255, 255, 255);">
+          <div class="sectionHeading">Mining software</div>
+    
+    <div>      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="https://github.com/fireice-uk/xmr-stak-cpu">xmr-stak-cpu</a>
+          &nbsp; <span style="font-size: 11px; padding-top: 2px; padding-bottom: 4px; color: rgb(170, 170, 170);">Best for newer Intel processors</span>
+        </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="https://github.com/fireice-uk/xmr-stak-amd">xmr-stak-amd</a>
+          &nbsp; <span style="font-size: 11px; padding-top: 2px; padding-bottom: 4px; color: rgb(170, 170, 170);">Best for AMD GPUs</span>
+        </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="https://github.com/fireice-uk/xmr-stak-nvidia">xmr-stak-nvidia</a>
+          &nbsp; <span style="font-size: 11px; padding-top: 2px; padding-bottom: 4px; color: rgb(170, 170, 170);">For NVIDIA GPUs</span>
+        </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="https://forum.getmonero.org/13/mining-software-and-pools/87576/xmrminer-a-new-high-optimized-nvidia-gpu-miner">xmrminer</a>
+          &nbsp; <span style="font-size: 11px; padding-top: 2px; padding-bottom: 4px; color: rgb(170, 170, 170);">For NVIDIA GPUs</span>
+        </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="https://github.com/jwinterm/monerospelunker/releases">monerospelunker</a>
+          &nbsp; <span style="font-size: 11px; padding-top: 2px; padding-bottom: 4px; color: rgb(170, 170, 170);">Easiest way to start mining with Windows</span>
+        </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="https://github.com/hyc/cpuminer-multi">cpuminer-multi</a>
+          &nbsp; <span style="font-size: 11px; padding-top: 2px; padding-bottom: 4px; color: rgb(170, 170, 170);">Linux CPU mining, alternative to xmr-stak-cpu</span>
+        </div>
+
+  </div>
+  </div>
+
+</div>
+
+<div style="clear: both;"></div>
+
+<div style="padding-bottom: 30px;">How much can you earn by mining? Use the <a href="monero-mining-calculator.html" indepth="true">Monero mining calculator.</a></div>
+
+<h2 style="margin-top: 0px;">Overview</h2>
+Before you begin, follow our tutorial for <a href="tutorial-how-to-create-a-command-line-monero-wallet.html" indepth="true">creating a Monero wallet</a>.
+Then choose a mining pool from the list above. For the resilience of the Monero mining network, it is advisable
+  that we all choose different mining pools so that an unhealthy concentration does not appear at any one mining pool. The examples below use the
+  "stratum+tcp://pool.minexmr.com:4444" address for the mineXMR.com pool. Swap that address for the address of the pool you wish to use.
+
+<h2>Mining Monero on Windows using MoneroSpelunker</h2>
+MoneroSpelunker (<a href="https://www.reddit.com/r/Monero/comments/51c36c/gui_is_finally_here/">announced here</a>) is a Windows GUI for the popular Wolf CPU
+  miner. Download the zip file <a href="https://github.com/jwinterm/monerospelunker/releases">here</a>, and unzip it. Then run the monerospelunker.exe file
+  and enter your Monero wallet address were you would like to be paid for your mining. Enter the mining address of the pool you have chosen, then click 'start mining'.
+
+  <img src="spelunkerminer.jpg" style="width: 100%; padding-top: 12px;">
+
+<h2>Mining Monero on Fedora 24 and above</h2>
+
+Remember to replace WALLET_ADDRESS_HERE with your own Monero wallet's public address. The "-t 3" option determines how many of your CPU threads will be used for mining.
+<br><br>
+<div class="bashCode">yum -y install git curl-devel libcurl glib-devel libtool
+git clone https://github.com/hyc/cpuminer-multi
+cd cpuminer-multi
+./autogen.sh
+CFLAGS="-march=native" ./configure
+make
+sudo ./minerd -a cryptonight -o stratum+tcp://pool.minexmr.com:4444 -u WALLET_ADDRESS_HERE -p x -t 3</div>
+
+<h2>Mining Monero on Ubuntu 14 and above</h2>
+
+Remember to replace WALLET_ADDRESS_HERE with your own Monero wallet's public address. The "-t 3" option determines how many of your CPU threads will be used for mining.
+
+<div class="bashCode">sudo apt-get install git libcurl4-openssl-dev build-essential libjansson-dev autotools-dev automake
+git clone https://github.com/hyc/cpuminer-multi
+cd cpuminer-multi
+./autogen.sh
+CFLAGS="-march=native" ./configure
+make
+sudo ./minerd -a cryptonight -o stratum+tcp://pool.minexmr.com:4444 -u WALLET_ADDRESS_HERE -p x -t 3</div>
+
+<h2>Checking your mining earnings</h2>
+
+
+
+  <img src="mining-payments.jpg" style="width: 100%; padding-bottom: 15px;">
+  To check how much Monero you have earned through your mining efforts, enter your wallet address into the "Lookup" box at the mining pool site. It will
+  tell you how much you have earned, and how much has been paid out so far. <br><br>Note that each mining pool has a payment threshold, which saves on transaction fees
+  by only paying out once you have mined a certain amount of Monero. Be prepared for it to take days or weeks to receive your first payment, depending on
+  the speed of your computer hardware.
+<br><br>Note that with some pools, your Hash Rate will be reported as zero for most of the time, until you suddenly submit a 'share'
+  to the pool from your mining efforts. You will temporarily see your Hash Rate reported, after which it will return to zero. This is normal for some pools, and you
+  do not need
+  to worry that something is not working correctly. As long as after a while you see the "total hashes submitted" figure increase, then your mining setup is working.
+
+
+</div>
+</div>
+
+
+  
+  <div class="grid-item" style="line-height: 1.4em; font-size: 13px; color: rgb(255, 255, 255);">
+          <div class="sectionHeading">Monero.how Tutorials</div>
+    
+    <div>      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="why-monero-vs-bitcoin.html" indepth="true">Why Monero vs Bitcoin</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="monero-eli5.html" indepth="true">Monero ELI5 (Explain like I'm five) - a super simple explanation of how Monero works</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="how-does-monero-privacy-work.html" indepth="true">How Monero's privacy works</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="monero-infographic.html" indepth="true">Monero Infographic</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="how-long-do-monero-transactions-take.html" indepth="true">How long transactions take</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="monero-transaction-fees.html" indepth="true">Transaction fees</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="monero-transaction-fee-calculator.html" indepth="true">Transaction fee calculator</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="monero-glossary.html" indepth="true">Glossary of the most important Monero terms</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="how-does-monero-work-details-in-plain-english.html" indepth="true">A low-level explanation of the mechanics of Monero vs Bitcoin in plain English</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-how-to-use-the-monero-gui-wallet.html" indepth="true">How to use the Monero GUI wallet</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-how-to-create-a-command-line-monero-wallet.html" indepth="true">How to create a Monero command line wallet</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-how-to-speed-up-initial-blockchain-sync.html" indepth="true">How to speed up initial blockchain sync</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-how-to-send-and-receive-monero-command-line.html" indepth="true">How to send and receive Monero on the command line</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-how-to-prove-payment.html" indepth="true">How to prove you've made a payment</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-restore-monero-command-line-wallet-from-seed.html" indepth="true">How to restore a command line wallet from your 25 word seed</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="how-to-verify-your-monero-funds-with-a-private-view-key.html" indepth="true">How to verify your funds with a private view key</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="how-to-buy-monero.html" indepth="true">How to buy Monero</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-how-to-create-a-monero-wallet-linux-boot-usb-pendrive.html" indepth="true">Set up a Monero wallet on a USB pendrive linux computer using a remote daemon</a>
+      </div>
+
+          <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-how-to-mine-monero.html" indepth="true">How to mine Monero on Windows or Linux (Fedora or Ubuntu)</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="monero-mining-calculator.html" indepth="true">Monero mining calculator</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-configure-openalias-to-receive-monero.html" indepth="true">Configure OpenAlias to more easily share your Monero address</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="monero-paper-wallet-offline-cold-storage.html" indepth="true">Create a paper wallet for secure offline storage</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="monero-price-ticker-on-mac-menu-bar.html" indepth="true">Display a Monero ticker on your Mac menu bar</a>
+      </div>
+
+      <div style="padding-bottom: 4px;"></div>
+  <div style="font-size: 13px; color: rgb(255, 255, 255);"><a href="tutorial-avoiding-ad-attacks.html" indepth="true">Avoiding Google ad attacks</a>
+      </div>
+
+    
+      </div>
+  </div>
+
+
+
+
+  
+
+
+  <div style="clear: both; padding: 20px; font-size: 13px; color: rgb(136, 136, 136); overflow-wrap: break-word;">
+    Send feedback, corrections or suggestions to hello<img src="a888.png" style="width: 13px; height: 13px; margin-bottom: -2px; padding-left: 1px;">monero.how
+    <br>Donations for running costs appreciated at
+    <span style="font-family: monospace; font-size: 12px; color: rgb(102, 102, 102);">49gaVm1UjcxPjntMKLYdFxiUixBCkdGzLiFTE8opG243ZgKmZE1x7zoYjTTWu4A9t3SkkXrvjhuutY8jpdVtWVTrTS5LUwh</span>
+    <br>Thanks to Monero developers and community members that answered questions that contributed to the content in this site: jollymort, hyc, moneromoo, smooth, jwinterm, debruyne, fluffypony, pero, needmoney90, ferretinjapan, idunk, saddam, wolf0, daveyjones, snipa, gingeropolous, markos, othe, m5m400, luigi1111, kenshi84
+    <br>Disclaimer: This site contains opinion for informational purposes only and does not consitute investment advice. Information may contain errors and omissions.
+    Use solely at your own risk. Services listed here are run by third parties and are not vetted by this site.
+    The authors of this site and/or the authors of articles linked to from this site may have financial investments that may bias their opinions, including ownership of Monero currency.
+    Always do your own research, form your own opinions, and never take risks with money or trust third parties without verifying their credibility.
+    Remember to take your computer security seriously and never use a computer or phone that is at risk of infection by untrusted software that may contain malware or viruses. © Copyright 2017.</div>
+
+
+
+
+
+</div>
+
+</body></html>

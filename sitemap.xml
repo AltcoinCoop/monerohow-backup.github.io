@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../sitemap.xsl" type="text/xsl" media="all"?>
+<site>
+<page file="index.html" text="Monero.How - Monero tutorials, statistics, charts and resources" title="$254.03 - Monero.How - Monero tutorials, statistics, charts and resources">
+<page file="why-monero-vs-bitcoin.html" text="Read why" title="$254.03 - Monero.How - Monero tutorials, statistics, charts and resources"/>
+<page file="auction.html" text="See the 14 day auction" title="$254.03 - Monero.How - Monero tutorials, statistics, charts and resources"/>
+<page file="monero-news.html" text="News" title="Monero.how auction"/>
+<page file="monero-chart.html" text="Chart" title="Monero XMRUSD chart"/>
+<page file="monero-stock-images.html" text="Stock Images" title="Monero.How - Stock Images"/>
+<page file="monero-infographic.html" text="Infographic" title="Monero Infographic"/>
+<page file="monero-eli5.html" text="Monero ELI5 (Explain like I'm five) - a super simple explanation of how Monero works" title="Monero ELI5 (Explain like I'm five)"/>
+<page file="how-does-monero-privacy-work.html" text="How Monero's privacy works" title="How does Monero's privacy work?"/>
+<page file="how-long-do-monero-transactions-take.html" text="How long transactions take" title="How long do Monero transactions take?"/>
+<page file="monero-transaction-fees.html" text="Transaction fees" title="How much are Monero transaction fees?"/>
+<page file="monero-transaction-fee-calculator.html" text="Transaction fee calculator" title="Monero Transaction Fee Calculator"/>
+<page file="monero-glossary.html" text="Glossary of the most important Monero terms" title="Glossary of the most important Monero terms"/>
+<page file="how-does-monero-work-details-in-plain-english.html" text="A low-level explanation of the mechanics of Monero vs Bitcoin in plain English" title="A low-level explanation of the mechanics of Monero vs Bitcoin in plain English"/>
+<page file="tutorial-how-to-use-the-monero-gui-wallet.html" text="How to use the Monero GUI wallet" title="How to use the Monero GUI wallet"/>
+<page file="tutorial-how-to-create-a-command-line-monero-wallet.html" text="How to create a Monero command line wallet" title="How to create a Monero command line wallet"/>
+<page file="tutorial-how-to-speed-up-initial-blockchain-sync.html" text="How to speed up initial blockchain sync" title="How to speed up initial blockchain sync"/>
+<page file="tutorial-how-to-send-and-receive-monero-command-line.html" text="How to send and receive Monero on the command line" title="How to send and receive Monero, and how long it should take (command line wallet)"/>
+<page file="tutorial-how-to-prove-payment.html" text="How to prove you've made a payment" title="How to prove you've made a payment"/>
+<page file="tutorial-restore-monero-command-line-wallet-from-seed.html" text="How to restore a command line wallet from your 25 word seed" title="How to restore a Monero wallet from your 25 word seed"/>
+<page file="how-to-verify-your-monero-funds-with-a-private-view-key.html" text="How to verify your funds with a private view key" title="How to verify your funds with a private view key"/>
+<page file="how-to-buy-monero.html" text="How to buy Monero" title="How to buy Monero"/>
+<page file="tutorial-how-to-create-a-monero-wallet-linux-boot-usb-pendrive.html" text="Set up a Monero wallet on a USB pendrive linux computer using a remote daemon" title="How to create or restore a Monero wallet using a Linux LiveCD or pendrive">
+<page file="email-protection.html" text="[email protected]" title="Get a Monero widget for your own web site"/>
+</page>
+<page file="tutorial-how-to-mine-monero.html" text="How to mine Monero on Windows or Linux (Fedora or Ubuntu)" title="How to mine Monero on Windows or Linux (Fedora or Ubuntu)"/>
+<page file="monero-mining-calculator.html" text="Monero mining calculator" title="Monero Mining Calculators"/>
+<page file="tutorial-configure-openalias-to-receive-monero.html" text="Configure OpenAlias to more easily share your Monero address" title="Configure OpenAlias to more easily share your Monero address"/>
+<page file="monero-paper-wallet-offline-cold-storage.html" text="Create a paper wallet for secure offline storage" title="Create your own Monero paper wallet for secure offline storage">
+<page file="monero-paper-wallet-front.html" text="" title="Email Protection | Cloudflare"/>
+<page file="monero-paper-wallet-back.html" text="" title=""/>
+</page>
+<page file="monero-price-ticker-on-mac-menu-bar.html" text="Display a Monero ticker on your Mac menu bar" title="See the live Monero price on your Mac menu bar"/>
+<page file="tutorial-avoiding-ad-attacks.html" text="Avoiding Google ad attacks" title="Avoiding Google ad attacks"/>
+<page file="monero-price-ticker-web-widget.html" text="Get the widget code here" title="Get a Monero widget for your own web site"/>
+</page>
+</site>

@@ -1,0 +1,279 @@
+/* ::::: https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,600,600,700 ::::: */
+
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url('fptvhk8qsxbiethtrnqh6awfb719wl-ihensf8-2rfs.woff2') format("woff2");
+	unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url('fptvhk8qsxbiethtrnqh6ovz3ccwm_xw90386hkrpvm.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url('fptvhk8qsxbiethtrnqh6lx9l3-3kr6jyubo7e3vk30.woff2') format("woff2");
+	unicode-range: U+1F00-1FFF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url('fptvhk8qsxbiethtrnqh6c_jrg-drp9kjc3iu_jpocg.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url('fptvhk8qsxbiethtrnqh6e78gtrp3lhchupcjnw8t58.woff2') format("woff2");
+	unicode-range: U+102-103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url('fptvhk8qsxbiethtrnqh6lpx497t94odua8kfal9f-e.woff2') format("woff2");
+	unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url('fptvhk8qsxbiethtrnqh6majkyiewwyrwzc50i8hk7i.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url('toadocfmlt9b38dhjxobgkhisfff-0ifc-simo8uwjs.woff2') format("woff2");
+	unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url('toadocfmlt9b38dhjxobgnjvocfwy_5vfjyfbaooiik.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url('toadocfmlt9b38dhjxobglgn1mc631objhzqjb_dffa.woff2') format("woff2");
+	unicode-range: U+1F00-1FFF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url('toadocfmlt9b38dhjxobgi3p6ux3hwbl10a8ofnxgla.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url('toadocfmlt9b38dhjxobgd_j0nmib9fphg_k1wdk2h0.woff2') format("woff2");
+	unicode-range: U+102-103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url('toadocfmlt9b38dhjxobgdrvvbvqic1z78c__uobcyi.woff2') format("woff2");
+	unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url('toadocfmlt9b38dhjxobgoode0-eumky--tsyexeing.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url('odeli1ahbydbqgeiah2zlac5s7wfeehrql6obgqgt8o.woff2') format("woff2");
+	unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url('odeli1ahbydbqgeiah2zlmgmx_l9kv4w6g8dyqolfui.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url('odeli1ahbydbqgeiah2zlmods9238lzg2v64uibijng.woff2') format("woff2");
+	unicode-range: U+1F00-1FFF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url('odeli1ahbydbqgeiah2zlfjqphnwksebf12mt9_m7kc.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url('odeli1ahbydbqgeiah2zlnoahfn6bivsraykjhverhy.woff2') format("woff2");
+	unicode-range: U+102-103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url('odeli1ahbydbqgeiah2zlc2q8seg17bfdxyr_jusrzg.woff2') format("woff2");
+	unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url('odeli1ahbydbqgeiah2zlnv_2ngz8dmf8flgjyeouxg.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url('toadocfmlt9b38dhjxobgatxacylrf0d-maoyocuimm.woff2') format("woff2");
+	unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url('toadocfmlt9b38dhjxobgaaau1wvauwbstvimzv06u4.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url('toadocfmlt9b38dhjxobgcjjduvyteemf0kcvaihheu.woff2') format("woff2");
+	unicode-range: U+1F00-1FFF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url('toadocfmlt9b38dhjxobgfnezh12mekzn5amaop7-v4.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url('toadocfmlt9b38dhjxobgclywvohdrq2vbpgrtz7bbs.woff2') format("woff2");
+	unicode-range: U+102-103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url('toadocfmlt9b38dhjxobgfkfh1tdtpruzwzvp6ftpg8.woff2') format("woff2");
+	unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url('toadocfmlt9b38dhjxobgcofnw3jk0f09zw_yln67ac.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url('toadocfmlt9b38dhjxobgh2tx1iqubyla4ftjzsoo3u.woff2') format("woff2");
+	unicode-range: U+460-52F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url('toadocfmlt9b38dhjxobgjaotu19ao7bfv-flfot5ym.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url('toadocfmlt9b38dhjxobghvbsgoutlscpvi6_8wv308.woff2') format("woff2");
+	unicode-range: U+1F00-1FFF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url('toadocfmlt9b38dhjxobgo4f2sqti4oyi3kh3bymg2y.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url('toadocfmlt9b38dhjxobgdovqjs_dxpzszo_xltpdng.woff2') format("woff2");
+	unicode-range: U+102-103, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url('toadocfmlt9b38dhjxobgfxe-gpfkkfmixaj_q0gfr8.woff2') format("woff2");
+	unicode-range: U+100-24F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url('toadocfmlt9b38dhjxobgeo0as1bfrxtcdhs66znb_k.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* ::::: https://www.monero.how/style.css ::::: */
+
+@font-face {
+	font-family: "dot-matrixnormal";
+	font-style: normal;
+	font-weight: normal;
+	src: url('dotmat-webfont.woff2') format("woff2"), url('dotmat-webfont.woff') format("woff");
+}
+@media screen and (max-width: 450px) {
+	#thegrid[data-columns]::before { content: "1 .column"; }
+}
+@media screen and (min-width: 451px) and (max-width: 850px) {
+	#thegrid[data-columns]::before { content: "2 .column.size-1of2"; }
+}
+@media screen and (min-width: 851px) {
+	#thegrid[data-columns]::before { content: "3 .column.size-1of3"; }
+}
+.pageContainer { max-width: 1024px; }
+.grid-item { margin-bottom: 30px; margin-left: 20px; margin-right: 20px; }
+body { background-color: rgb(53, 53, 53); font-family: "Source Sans Pro",sans-serif; font-weight: 400; color: rgb(221, 221, 221); }
+a:link { color: rgb(212, 203, 158); text-decoration: none; }
+a:visited { color: rgb(212, 203, 158); text-decoration: none; }
+.sectionHeading { font-family: "Source Sans Pro",sans-serif; font-weight: 700; font-size: 18px; text-transform: uppercase; padding-bottom: 6px; color: rgb(238, 238, 238); border-bottom: 1px solid rgb(87, 87, 87); margin-bottom: 2px; }
+ul.nav { list-style-type: none; padding: 0px; margin: 0px; overflow: hidden; }
+li.nav { float: left; color: white; font-size: 14px; }
+li.nav a { display: block; color: white; text-align: center; padding: 4px 8px; text-decoration: none; font-weight: 600; }
+li.nav a:hover:not(.active) { background-color: rgb(17, 17, 17); }
+h1 { font-family: "Source Sans Pro",sans-serif; font-weight: 600; font-size: 38px; padding-bottom: 4px; color: rgb(255, 255, 255); border-bottom: 1px solid rgb(87, 87, 87); margin-top: 0px; }
+h3 { font-weight: 400; margin-top: 40px; color: rgb(255, 255, 255); }
+h3:first-child { margin-top: 10px; }
+table.tutorial { width: 90%; margin: 1em auto; border-collapse: collapse; }
+.tutorial td { padding: 0.3em 1em; text-align: left; vertical-align: top; font-size: 14px; }
